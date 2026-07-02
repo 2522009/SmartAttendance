@@ -1,0 +1,157 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+font-family: 'poppins',sans-serif;
+}
+
+body{
+
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    background: #ffffff;
+    width: 380px;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fadeIn 0.8s ease;
+}
+
+.logo{
+    width: 90px;
+    margin-bottom: 15px;
+}
+h1,h2{
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #444;
+}
+
+.input-group input:focus{
+    border-color: #4facfe;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
+
+.admin-btn{
+    background: #28a745;
+}
+
+.admin-btn:hover{
+    background: #1e7e34;
+}
+
+a{
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th{
+    background: #007Bff;
+    color: white;
+}
+
+.success{
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+@keyframes fadeIn{
+    form{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:480px){
+    .card{
+        width: 95%;
+        padding: 25px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 22px;
+    }
+}

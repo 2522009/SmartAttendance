@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card" style="width:90%; max-width:900px;">
+
+        <img src="logo.png" class="logo" alt="College Logo">
+
+        <h2>Admin Dashboard</h2>
+
+        <p>Attendance Records</p>
+
+        <table id="attendanceTable">
+
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Roll No</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableBody">
+
+                <!-- Attendance records will appear here -->
+
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <button class="btn admin-btn" onclick="clearAttendance()">
+            Clear Attendance
+        </button>
+
+        <br><br>
+
+        <a href="index.html">⬅ Back to Home</a>
+
+    </div>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
