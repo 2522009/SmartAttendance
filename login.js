@@ -22,7 +22,7 @@ const students = [
         password:"1234",
         name:"Bhut Parth",
         roll:"IT004"
-    }
+    },
 ];
 
 //Login Form
