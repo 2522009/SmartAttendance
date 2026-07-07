@@ -16,7 +16,12 @@ const students = [
         password:"1234",
         name:"Soneji Vyom",
         roll:"IT003"
-    }
+    },
+    {
+        id:"104",
+        password:"1234",
+        name:"Bhut Parth",
+        roll:"IT003"
 ];
 
 //Login Form
